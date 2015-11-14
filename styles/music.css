@@ -29,6 +29,10 @@ h1 {
     padding-left:5%;
 }
 
+div > p {
+    text-align:center;
+}
+
 article {
     width: 90%;
     padding-top: 5%;
@@ -43,8 +47,9 @@ article {
 
 img, audio {
     display: block;
-    margin: 0 auto;
+    margin: 2% auto;
     max-width: 100%;
+    
 }
 footer > p {
     text-align: center;

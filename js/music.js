@@ -21,17 +21,21 @@ $(document).ready(function(){
         
         // we can get the ID of the thing that was clicked - 
         switch ( $(this).attr("id") ) {
-            case "perfect" :
-                $('#one').show();
+            case "one" :
+                $('#perfect').show();
+                document.getElementById("1").play();
                 break;
             case "two" :
                 $('#best').show();
+                document.getElementById("2").play();
                 break;
             case "three" :
                 $('#steal').show();
+                document.getElementById("3").play();
                 break;
             case "four" :
-                $('ticket').show();
+                $('#ticket').show();
+                document.getElementById("4").play();
                 break;
         }
     });  // end of function for clicking 
