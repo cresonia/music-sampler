@@ -1,0 +1,84 @@
+body {
+    background: #1F2D40;
+    color: #FFF;
+    font-family: Roboto, Bodoni, sans-serif;
+    font-size: 100%;
+    margin: 0 auto; 
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background:#33617F;
+    margin:0 auto;
+    padding:0;
+}
+body {
+    padding-bottom:2%;
+    padding-left:2%;
+    padding-right:2%;
+    margin-bottom:1%;
+    margin-left:1%;
+    margin-right:1%;
+
+}
+h1 {
+    font-family: "Fauna One", Calibri, serif;
+    color:#FFF;
+    font-size:200%;
+    padding-left:5%;
+}
+
+article {
+    width: 90%;
+    padding-top: 5%;
+    -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0 auto;
+}
+ article > p {
+    text-align: center;
+}
+
+img, audio {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+footer > p {
+    text-align: center;
+}
+
+/* links */
+
+a:link, a:visited, a:active {
+    color: #0287b3;
+}
+
+a:hover {
+    color: #3ecbfa;
+}
+/*MEDIA QUERIES*/
+/*mobile styles*/
+@media only screen and (max-width:480px) {
+
+body {
+	width: 95%;
+}
+/*tablet styles*/
+
+@media only screen and (min-width:481px) and (max-width:768px) {
+
+body {
+	width: 90%;
+}
+}
+
+/*desktop styles*/
+@media only screen and (min-width:769px) and (max-width:1200px){
+	
+ body {
+ width: 80%;
+}
+}
