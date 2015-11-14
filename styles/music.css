@@ -4,6 +4,12 @@ body {
     font-family: Roboto, Bodoni, sans-serif;
     font-size: 100%;
     margin: 0 auto; 
+    padding-bottom:2%;
+    padding-left:2%;
+    padding-right:2%;
+    margin-bottom:1%;
+    margin-left:1%;
+    margin-right:1%;
 }
 
 header {
@@ -13,15 +19,8 @@ header {
     margin:0 auto;
     padding:0;
 }
-body {
-    padding-bottom:2%;
-    padding-left:2%;
-    padding-right:2%;
-    margin-bottom:1%;
-    margin-left:1%;
-    margin-right:1%;
+   
 
-}
 h1 {
     font-family: "Fauna One", Calibri, serif;
     color:#FFF;
@@ -36,9 +35,6 @@ div > p {
 article {
     width: 90%;
     padding-top: 5%;
-    -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-            box-sizing: border-box;
     margin: 0 auto;
 }
  article > p {
@@ -70,6 +66,7 @@ a:hover {
 
 body {
 	width: 95%;
+}
 }
 /*tablet styles*/
 
