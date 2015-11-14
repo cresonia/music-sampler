@@ -10,6 +10,10 @@ $(document).ready(function(){
     // run that function right away
     hideAll();
     
+    	$('#large').click (function() {
+		$('#article').slideToggle();
+	});
+    
     // when any animal is clicked, make the suitable div appear
     $('.picture').click (function() {
         // but first, hide all the divs to ensure that 
